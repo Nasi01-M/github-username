@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #searchResults, #userRepos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .user-card {
+    text-align: center;
+  }
+  
+  .user-card img {
+    border-radius: 50%;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    object-fit: cover;
+  }
+  
